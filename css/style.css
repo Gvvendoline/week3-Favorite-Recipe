@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 *{
    margin: 0;
-   padding: 0;
+   padding: 10;
    box-sizing: border-box; 
 }
 
@@ -12,33 +12,19 @@ body{
 
 .heading {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Monsieur La Doulaise", cursive;
     color: brown;
 }
 
 .main{
-    width: 600px;
-    height: 600px;
+    
+    width: 500px;
+    height: 350px;
     border: 1px solid black;
-    margin: 2rem auto;
-}
-
-.main>div{
-    width: 200px; 
-    height: 200px;
-    border-radius: 50%; 
     margin: 0 auto;
 }
-#red{
-    border: 1px solid red;
-}
-#green{
-    border: 1px solid green;
-}
-#blue{
-    border: 1px solid blue;
-}
+
 .footer{
     text-align: center;
 }
